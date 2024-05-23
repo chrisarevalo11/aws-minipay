@@ -1,0 +1,99 @@
+----------------------------------
+# IntelliJ
+----------------------------------
+*.iml
+*.ipr
+*.iws
+.idea
+
+*.gitkeep
+
+#----------------------------------
+# Eclipse
+----------------------------------
+.settings/
+.classpath
+.project
+
+----------------------------------
+# NetBeans specific
+----------------------------------
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+----------------------------------
+# OS
+----------------------------------
+.DS_Store
+
+----------------------------------
+# Miscellaneous
+----------------------------------
+*.class
+*.log
+*.pyc
+*.swp
+
+----------------------------------
+# Node.js
+----------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+----------------------------------
+# Logs
+----------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+----------------------------------
+# TypeScript
+----------------------------------
+dist/
+*.tsbuildinfo
+
+----------------------------------
+# Testing
+----------------------------------
+coverage/
+.nyc_output/
+
+----------------------------------
+# Build
+----------------------------------
+build/
+
+----------------------------------
+# Environment variables
+----------------------------------
+.env
+.env.test
+.env.production
+
+----------------------------------
+# IDEs and editors
+----------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.next
+
+----------------------------------
+# Package managers
+----------------------------------
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
